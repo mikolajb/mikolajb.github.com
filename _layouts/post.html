@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1><a href="{{ page.url }}" title="{{ page.title }}"> {{ page.title }} </a></h1>
+
+{% if page.date != null %}
+<span class="published_on">
+   Published on {{ page.date | date: "%Y-%m-%d" }}
+</span>
+{% endif %}
+
+{{ content }}
