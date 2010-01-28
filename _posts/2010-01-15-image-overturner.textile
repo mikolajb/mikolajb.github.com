@@ -1,0 +1,23 @@
+---
+layout: post
+title: Webrick proxy image overturner
+---
+
+For a first post, lets start from a joke - proxy which overtuns images.
+
+Needed tools:
+* Ruby
+* Proxy - "Webric":http://www.ruby-doc.org/stdlib/libdoc/webrick/rdoc/index.html - the most avilable (included in ruby stdlib).
+* Image library - "RMagick":http://rmagick.rubyforge.org/ - ruby wrapper to ImageMagick
+
+<div class="code">
+     <script src="http://gist.github.com/277636.js?file=gistfile1.txt"></script>
+</div>
+
+Set proxy to:
+* host: http://localhost
+* port: 9090
+
+and enjoy waching overturned images :)
+
+Don't forget to clear your browser cache!
