@@ -1,29 +1,45 @@
 ul.posts {list-style-type: none;}
 
 ul.posts span {
-   color: #aaa;
-   font-family: "Droid Sans Mono", "Courier New", monospace;
+   color: #90909D;
+   font-family: "Inconsolata", "Droid Sans Mono", "Courier New", monospace;
 }
 
 span.published_on {
-   color: #aaa;
-   font-family: "Droid Sans Mono", "Courier New", monospace;
+   color: #90909D;
+   font-family: "Inconsolata", "Droid Sans Mono", "Courier New", monospace;
 }
-
 
 .container {
-   font-size: 100%;
-   margin: 3em auto 2em;
+   font-size: 110%;
+   font-family: "Droid Sans", sans-serif;
+   margin: 30px auto;
+   width:650px;
 }
 
+.footer {
+   margin-top: 30px;
+   text-align: center;
+   corol: #aaa;
+}
 
-ul, ol {margin:0; padding-left:0}
+.content {
+   margin: 20px auto;
+}
+
+ul, ol {margin:10px; padding-left:10px}
 
 .container .header a {
    text-decoration: none;
 }
 
 .header {
-   margin-bottom: 2em;
+   margin-bottom: 30px;
+   text-align: center;
+   font-size: 120%;
+   font-weight: bold;
 }
 
+.code {
+   font-family: "Inconsolata", "Droid Sans Mono", "Courier New", monospace;
+}

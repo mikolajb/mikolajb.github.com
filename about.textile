@@ -2,4 +2,11 @@
 layout: default
 ---
 
-*Github*: "mikolajb":http://github.com/mikolajb
+p=. !avatar.png(Mikołaj Baranowski photo)!
+
+
+table.
+|>.My open source projects on Github|»|<."mikolajb":http://github.com/mikolajb|
+|>.My Facebook profile|»|<."facebook":http://www.facebook.com/mikolaj.baranowski|
+
+
